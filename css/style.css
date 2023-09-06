@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(blue, blueviolet, red);
+    margin-top: 50px;
+    height: 100vh;
+}
+.box{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    border-radius: 30px;
+}
+#insertNumber
+{
+    padding: 5px;
+    border-radius: 20px;
+    color: red;
+    font-weight: 900;
+    text-align: center;
+}
+.submit
+{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+}
+#result, label{
+    color: blueviolet;
+    font-weight: 900;
+}
