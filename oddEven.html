@@ -14,19 +14,6 @@
         <input type="button" class="submit" onclick="getValueFromNumberInput()" value="SUBMIT">
         <p id="result"></p>
     </div>
-    <script>
-        function getValueFromNumberInput(){
-            let num = document.getElementById('insertNumber').value;
-            if(num%2===0){
-                document.getElementById('result').innerHTML = ('The number is even');
-            }
-            else if(num%2===1){
-                document.getElementById('result').innerHTML = ('The number is odd');
-            }
-            else {
-                document.getElementById('result').innerHTML = ('The number is in decimals')
-            }
-        }
-    </script>
+    <script src="./js/function.js"></script>
 </body>
 </html>
